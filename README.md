@@ -1,4 +1,4 @@
-# Analyzing Habitat for Humanity data
+# Analyzing Art Theater data
 
 ## Organization Name
  
