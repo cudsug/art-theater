@@ -7,24 +7,21 @@ The Art Theater
 The Art Theater is a one-screen Art House theater that programs its films for a combination of fulfilling its mission and keeping the business operating through ticket and concessions sales.  
 
 ## Problem Statement
-Choosing films is a difficult process, as theaters must select movies well in advance – and strategy is necessary to choose the right films.  The good news is that the Theater gets a new chance each week.
+Choosing films is a difficult process;  theaters must select movies well in advance – so strategy is necessary to choose the right films.  The good news is that the Theater gets a new chance each week.
 
-The 
+The Art Theater is looking for help to make its data more meaningful.  Some ways this could happen:
 
-1.	How can this data be mined for lessons about future bookings?  How are characteristics of films linked to their performance?
+1. The Concessions sales are by day and time, but not by movie.  Surely, there should be a way to infer the associated film from the Ticket datasets...
 
-2.	What sort of metrics can the theater use to know how it is performing – either against itself or against its peers?  
+2. The movie data in "ticket_sales_by_showing" is in a vacuum.  We would very much like to be able to combine this information with existing databases to answer qusetions based on factors such as: genre, critic & audience ratings scores, MPAA ratings, etc.   Of note... there are open APIs with IMDB-like data (https://rapidapi.com/imdb/api/movie-database-imdb-alternative) 
 
-•	The good: There are open APIs with IMDB-like data (https://rapidapi.com/imdb/api/movie-database-imdb-alternative) 
-•	The bad: to get box office results by week, we're looking at paid services.  I traded e-mails with these guys -> https://www.opusdata.com/   At this point, they provided me with a sample database of what we could get for about $1,000.  It's what we'd want, but it's $1,000.  
+3. Of even more value would be to compare the performance of films at the Art Theater with the performance of the same film at other theaters, AT THE SAME TIME.  This would allow the Art to understand what films might do better (or worse) with our audience.  This information is available on sites like Box Office Mojo: https://www.boxofficemojo.com/movies/?page=daily&view=chart&id=rbg.htm  
 
-1) You can get overall total grosses using Box Office Mojo's API: https://www.boxofficemojo.com/about/data.htm
-2) All the cool kids are into screen scraping.  (Not me, but I hear it's popular...)  So I'm thinking they could do some amount of screen scraping from the weekly totals https://www.boxofficemojo.com/movies/?page=weekly&id=rbg.htm or even daily totals: https://www.boxofficemojo.com/movies/?page=daily&view=chart&id=rbg.htm 
-
+Other data sets are included that contain the use of reloadable Smart Cards, to mine that information for possible trends - or to detect abuse of the cards.  (We don't suspect any, but just in case.) 
 
 ## Evaluation criteria
 
-For each the diagnostic or predictive focus areas, the evaluation will be determined by the use of available data from the Art Theater, linked to movie data from external sources, to provide evidence for your recommendation or findings.
+
 
 ## Data Details
 
