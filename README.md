@@ -19,6 +19,10 @@ A wonderful part of the theater business is a constant stream of new content, pl
 •	The good: There are open APIs with IMDB-like data (https://rapidapi.com/imdb/api/movie-database-imdb-alternative) 
 •	The bad: to get box office results by week, we're looking at paid services.  I traded e-mails with these guys -> https://www.opusdata.com/   At this point, they provided me with a sample database of what we could get for about $1,000.  It's what we'd want, but it's $1,000.  
 
+1) You can get overall total grosses using Box Office Mojo's API: https://www.boxofficemojo.com/about/data.htm
+2) All the cool kids are into screen scraping.  (Not me, but I hear it's popular...)  So I'm thinking they could do some amount of screen scraping from the weekly totals https://www.boxofficemojo.com/movies/?page=weekly&id=rbg.htm or even daily totals: https://www.boxofficemojo.com/movies/?page=daily&view=chart&id=rbg.htm 
+
+
 ## Evaluation criteria
 
 For each the diagnostic or predictive focus areas, the evaluation will be determined by the use of available data from the Art Theater, linked to movie data from external sources, to provide evidence for your recommendation or findings.
