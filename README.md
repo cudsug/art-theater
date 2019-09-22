@@ -7,10 +7,9 @@ The Art Theater
 The Art Theater is a one-screen Art House theater that programs its films for a combination of fulfilling its mission and keeping the business operating through ticket and concessions sales.  
 
 ## Problem Statement
-Choosing films is a difficult process, as theaters must select movies well in advance – and strategy is necessary to choose the right films for the right amount of time.  
+Choosing films is a difficult process, as theaters must select movies well in advance – and strategy is necessary to choose the right films.  The good news is that the Theater gets a new chance each week.
 
-A wonderful part of the theater business is a constant stream of new content, plus rich data in the attendance and revenue details of each showing.  
-
+The 
 
 1.	How can this data be mined for lessons about future bookings?  How are characteristics of films linked to their performance?
 
