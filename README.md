@@ -21,8 +21,22 @@ Other data sets are included that contain the use of reloadable Smart Cards, to 
 
 ## Evaluation criteria
 
+We are looking for tools that can be used on an ongoing basis, so a sustainable project that can be reloaded with fresh data for new analysis is an important aspect.
 
+Otherwise, meaningful insights and improved decision-making are what we seek!
+
+The team with the best project using our data will win $20 gift cards for each member!
 
 ## Data Details
 
+There are five datasets:
 
+- ticket_sales_by_showing.csv - this sumarizes the count of tickets by type (Adult, Student, etc.) by movie, date, and time.
+
+- gross_revenue_by_event.csv - summarizes all tickets and concessions by event/film
+
+- ConcessionsSales_Anonymized.csv - lists transactions of food & drink by date & time (but not by event!)
+
+- gift_card_transactions.csv - lists the amounts added and removed from gift cards
+
+- merchandise_sales.csv - lists the sales of merch, which is generally special event passes
